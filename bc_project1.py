@@ -92,7 +92,7 @@ def calculate():
     try:
         result = eval(entry.get())
         entry.delete(0, tk.END)
-        entry.insert(tk.END)
+        entry.insert(tk.END, str(result))
     except ZeroDivisionError:
         entry.delete(0, tk.END)
         entry.insert(tk.END, "Error.")
