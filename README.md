@@ -6,4 +6,3 @@ This is my first project I have made using Python. It's very simple. I used basi
 
 Onto the next project!
 
-- Rose
